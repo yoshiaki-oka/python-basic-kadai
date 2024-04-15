@@ -1,0 +1,11 @@
+def add(price, tax):
+    # 与えられた引数priceと引数taxを加算し、変数totalに代入する
+    total = price + tax
+
+    # 変数$totalの値を出力する
+    print(f"{total}円")
+
+# 関数を呼び出し、引数として商品の金額と消費税を渡す
+add(5000, 500)
+
+5500
