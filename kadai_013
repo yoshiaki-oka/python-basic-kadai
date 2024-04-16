@@ -1,11 +1,11 @@
-def add(price, tax):
-    # 与えられた引数priceと引数taxを加算し、変数totalに代入する
-    total = price + tax
+def function(price, tax_rate):
+    # 引数price・tax_rateで計算し、戻り値を返す
+    return price + (price * tax_rate)
 
-    # 変数$totalの値を出力する
-    print(f"{total}円")
+    # 関数の値を出力
+    print(function())
 
-# 関数を呼び出し、引数として商品の金額と消費税を渡す
-add(5000, 500)
+# 関数呼出、引数として商品の金額・消費税率を渡す
+function(5000, 0.1)
 
-5500
+5500.0
