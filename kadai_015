@@ -1,0 +1,25 @@
+# クラスの定義（例：class Product: ...... ）
+class Human:
+
+    # コンストラクタの定義
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    # メソッドの定義（例：public show_name(): ...... ）
+    def printinfo(self):
+       print(self.name)
+       print(self.age)
+
+# インスタンス化（例：shampoo = Product()）
+Human = Human("侍太郎", "36")
+
+# 属性へのアクセス（例：shampoo.name）
+Human.name
+Human.age
+
+# メソッドへのアクセス（例：shampoo.show_name()）
+Human.printinfo()
+
+侍太郎
+36
