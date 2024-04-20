@@ -19,7 +19,7 @@ human.name
 human.age
 
 # メソッドへのアクセス（例：shampoo.show_name()）
-Human.printinfo()
+human.printinfo()
 
 侍太郎
 36
