@@ -1,0 +1,36 @@
+# クラスの定義
+class Human:
+
+# コンストラクタの定義
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+# メソッドの定義
+    def check_adult(self):
+        if self.age >= 20:
+            print((self.name)+"は大人である")
+        else:
+            print((self.name)+"は大人でない")
+
+# インスタンス作成
+human_1 = Human("太郎", 19)
+human_2 = Human("次郎", 20)
+human_3 = Human("三四郎",23)
+human_4 = Human("五郎", 25)
+human_5 = Human("花子", 18)
+
+# listへインスタンス追加
+human_list = []
+human_list = [human_1, human_2, human_3, human_4, human_5]
+
+#メソッドへのアクセス
+for human in human_list:
+    human.check_adult()
+
+
+太郎は大人でない
+次郎は大人である
+三四郎は大人である
+五郎は大人である
+花子は大人でない
